@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Barlow', sans-serif;
+     
+}
+
+
+header{
+    background-color: black;
+    border-bottom: 3px solid #32b9cd;
+    padding: 15px 0;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    width: 80%;
+    margin: 0 auto; 
+  
+}
+
+.titulo{
+    color: #32b9cd;
+    font-size: 17px;
+}
+
+.navegacao{
+    color: #efb661;
+    
+}
+
+/* dentro da navegação esse ul em específico não terá as bolinhas. */
+.navegacao ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.navegacao ul li{
+    font-size: 15px;
+}
+
+/* conteúdo da página */
+/* banner */
+.banner{
+    background-image: url("./img/bg-jelly-fish-para_outras_pags.png");
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    background-size: cover;
+}
+
+.banner .container{
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.banner p{
+    color: #ffff;
+    font-size: 36px;
+    width: 280px;
+}
+
+/* caixas */
+
+.social{
+    margin: 50px 0;
+}
+.social .caixas{
+display: flex;
+margin-top: 50px;
+}
+
+.caixa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+ 
+}
+
+.caixa img{
+    width: 170px;
+ 
+}
+
+.caixa p{
+ text-align: center;
+}
+
+.caixa h4{
+    margin: 15px 0;
+    color: #e6005a;
+}
+
+/* rodapé/footer */
+footer{
+    background-color: #32b9cd;
+    padding: 45px 0;
+
+
+}
+
+footer .container{
+    justify-content: center;
+
+}
+
+footer p{
+    color: #ffff;
+}
